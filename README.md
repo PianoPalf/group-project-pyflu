@@ -1,2 +1,2 @@
 # group-project-pyflu
-Factors that influence influenza transmission globally.
+Analysing factors that influence influenza transmission globally.
