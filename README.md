@@ -6,6 +6,7 @@ Analysis of factors that influence the transmission of influenza globally before
 
 - [General info](#general-info)
 - [Technologies](#technologies)
+- [Logic of Code](#logic-of-code)
 - [Screenshot](#screenshot)
 - [Code Examples](#code-examples)
 - [Summary & Conclusions](#summary-&-conclusions)
@@ -18,8 +19,8 @@ Analysis of factors that influence the transmission of influenza globally before
 - Cleans data and generates summary Pandas DataFrames for subsequent analyses.
 - Generates Chloropleth maps of influenza cases globally over multiple years for visualisation purposes. The time period analysed spans before, during and after the COVID-19 pandemic.
 - Plots corresponding line graphs for specific countries of interest as gleaned from Chloropleth maps.
+- Analyses and plots influenza cases by seasons for multiple countries.
 - Analyses and generates plots with respect to GDP, capital health expenditure and general hygiene standards to identify potential correlations.
-- Add Caroline's analyses here.
 
 ## Technologies
 
@@ -34,6 +35,10 @@ Project created and run using:
 
 - Visual Studio Code 1.79.2
 - Jupyter Notebook 5.3.0
+
+## Logic of Code
+
+
 
 ## Screenshot
 
@@ -125,14 +130,3 @@ Data collated, cleaned and code written by:
   - https://www.datacamp.com/tutorial/making-map-in-python-using-plotly-library-guide
 - Chloropleth Map with Slider for Years:
 	- https://stackoverflow.com/questions/76143436/plotly-choropleth-sliders-break-after-converting-to-html-with-nbconvert
-
-
-
-
-
-
-
-
-
-
-
