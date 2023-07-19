@@ -1,17 +1,21 @@
 # PyFlu - Group 2
 
-Analysis of factors that influence the transmission of influenza globally before, during and after the COVID-19 pandemic.
+Analysis of factors that influence the transmission of influenza globally.
+
+
 
 ## Table of Contents
 
 - [General info](#general-info)
 - [Technologies](#technologies)
-- [Logic of Code](#logic-of-code)
+- [Code Workflow](#code-workflow)
 - [Screenshot](#screenshot)
 - [Code Examples](#code-examples)
 - [Summary & Conclusions](#summary-&-conclusions)
 - [Authorship](#authorship)
 - [References](#references)
+
+
 
 ## General info
 
@@ -20,7 +24,9 @@ Analysis of factors that influence the transmission of influenza globally before
 - Generates Chloropleth maps of influenza cases globally over multiple years for visualisation purposes. The time period analysed spans before, during and after the COVID-19 pandemic.
 - Plots corresponding line graphs for specific countries of interest as gleaned from Chloropleth maps.
 - Analyses and plots influenza cases by seasons for multiple countries.
-- Analyses and generates plots with respect to GDP, capital health expenditure and general hygiene standards to identify potential correlations.
+- Analyses and generates plots with respect to influenza cases, capital health expenditure and general hygiene standards to identify potential correlations.
+
+
 
 ## Technologies
 
@@ -36,7 +42,21 @@ Project created and run using:
 - Visual Studio Code 1.79.2
 - Jupyter Notebook 5.3.0
 
-## Logic of Code
+
+
+## Code Workflow
+
+#### 1. PyFlu_dataframes_SP
+   - Reads in multiple .csv files.
+   - Cleans data and generate DataFrames for subsequent analyses.
+#### 2. PyFlu_maps_slider_SP 
+   - Plots influenza cases per million people by country on a global Chloropleth map with 'Year' slider.
+#### 3. PyFlu_case_graphs_ET
+   - Plots influenza cases per million people for countries of interest over time on line and scatter graphs.
+#### 4. PyFlu_seasonality_CG
+   - Plots cases by country and season to identify potential transmission cycles for Northern and Southern Hemisphere countries.
+#### 5. PyFlu_economics_and_hygiene_GN
+   - Identifies potential correlations between influenza cases, capital health expenditure and hygiene standards.
 
 
 
@@ -44,7 +64,9 @@ Project created and run using:
 
 #### Chloropleth Map with Year Slider:
 
-![chloropleth_map_slider](/Users/samuelpalframan/Jupyter Notebook/Module_7_Group_Project/GitHub/group-project-pyflu/Resources/chloropleth_map_slider.png)
+![chloropleth_map_slider](Resources/chloropleth_map_slider.png)
+
+
 
 ## Code Examples
 
@@ -98,11 +120,15 @@ for i in years:
     cases_per_year.extend(data)
 ```
 
+
+
 ## Summary & Conclusions 
 
 #### Effect of COVID-19 on the number of influenza cases
 
 It was found that there were less reported influenza cases during the COVID-19 pandemic. This could be attributed to the effect of 'lockdowns' during the pandemic, as lockdowns drastically reduce person-person contact and therefore the transmission of airborne viruses. The phenomenon might also be explained by a reduced capacity for a given country to test for influenza during this time, as COVID-19 overwhelmed the healthcare systems of both developed and developing countries.
+
+
 
 ## Authorship
 
@@ -114,6 +140,8 @@ Data collated, cleaned and code written by:
 - Giang Nguyen
 - Samuel Palframan
 - Eric Tran
+
+
 
 ## References
 
