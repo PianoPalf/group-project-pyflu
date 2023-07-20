@@ -15,6 +15,10 @@ When the code successfully read the CSV files, then the rest of code should work
 When it comes to altering the list of countries for a different, that can be done by changing the series from the ‘country_list’ and either add or remove a country. Therefore, there isn’t any need of heavy changes in regards to the coding that displays the graphs.
 
 Images of the two graphs
+
+
+
+
 ![image](https://github.com/PianoPalf/group-project-pyflu/assets/134130254/354a7ef2-b318-46dd-baa6-a313ea5d0462)
 ![image](https://github.com/PianoPalf/group-project-pyflu/assets/134130254/572b9dc5-b3c2-4870-bcd3-1bbc1df9a8ee)
 
