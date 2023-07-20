@@ -2,8 +2,6 @@
 
 Analysis of factors that influence the transmission of influenza globally.
 
-
-
 ## Table of Contents
 
 - [General info](#general-info)
@@ -15,8 +13,6 @@ Analysis of factors that influence the transmission of influenza globally.
 - [Authorship](#authorship)
 - [References](#references)
 
-
-
 ## General info
 
 - Reads data from .csv files acquired from multiple sources.
@@ -25,8 +21,6 @@ Analysis of factors that influence the transmission of influenza globally.
 - Plots corresponding line graphs for specific countries of interest as gleaned from Chloropleth maps.
 - Analyses and plots influenza cases by seasons for multiple countries.
 - Analyses and generates plots with respect to influenza cases, capital health expenditure and general hygiene standards to identify potential correlations.
-
-
 
 ## Technologies
 
@@ -42,8 +36,6 @@ Project created and run using:
 - Visual Studio Code 1.79.2
 - Jupyter Notebook 5.3.0
 
-
-
 ## Code Workflow
 
 #### 1. PyFlu_dataframes_SP
@@ -58,15 +50,11 @@ Project created and run using:
 #### 5. PyFlu_economics_and_hygiene_GN
    - Identifies potential correlations between influenza cases, capital health expenditure and hygiene standards.
 
-
-
 ## Screenshot
 
 #### Chloropleth Map with Year Slider:
 
 ![chloropleth_map_slider](Resources/chloropleth_map_slider.png)
-
-
 
 ## Code Examples
 
@@ -120,15 +108,11 @@ for i in years:
     cases_per_year.extend(data)
 ```
 
-
-
 ## Summary & Conclusions 
 
 #### Effect of COVID-19 on the number of influenza cases
 
 It was found that there were less reported influenza cases during the COVID-19 pandemic. This could be attributed to the effect of 'lockdowns' during the pandemic, as lockdowns drastically reduce person-person contact and therefore the transmission of airborne viruses. The phenomenon might also be explained by a reduced capacity for a given country to test for influenza during this time, as COVID-19 overwhelmed the healthcare systems of both developed and developing countries.
-
-
 
 ## Authorship
 
@@ -140,8 +124,6 @@ Data collated, cleaned and code written by:
 - Giang Nguyen
 - Samuel Palframan
 - Eric Tran
-
-
 
 ## References
 
