@@ -45,9 +45,9 @@ Project created and run using:
    - Plots influenza cases per million people by country on a global Chloropleth map with 'Year' slider.
 #### 3. Project_influenza_ET
    - Plots influenza cases per million people for countries of interest over time on line and scatter graphs.
-#### 4. clean_population_CG, test flu seasonality_cg
+#### 4. clean_population_CG > test flu seasonality_cg
    - Plots cases by country and season to identify potential transmission cycles for Northern and Southern Hemisphere countries.
-#### 5. Project 1 code_cleaning influenza data_Giang, Project 1 code_Cleaning Capital Health Expenditure data_Giang, Project 1 code_Clean Hygiene data_Giang.ipynb, Project 1 Code_Giang
+#### 5. Project 1 code_cleaning influenza data_Giang > Project 1 code_Cleaning Capital Health Expenditure data_Giang > Project 1 code_Clean Hygiene data_Giang.ipynb > Project 1 Code_Giang
    - Identifies potential correlations between influenza cases, capital health expenditure and hygiene standards.
 
 ## Screenshot
